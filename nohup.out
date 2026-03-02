@@ -1,0 +1,555 @@
+Traceback (most recent call last):
+  File "/storage/emulated/0/location_tracker/app.py", line 44, in <module>
+    socketio.run(app, host='0.0.0.0', port=5000, debug=True)  # Host 0.0.0.0 untuk Termux
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask_socketio/__init__.py", line 649, in run
+    raise RuntimeError('The Werkzeug web server is not '
+RuntimeError: The Werkzeug web server is not designed to run in production. Pass allow_unsafe_werkzeug=True to the run() method to disable this error.
+Traceback (most recent call last):
+  File "/storage/emulated/0/location_tracker/app.py", line 44, in <module>
+    socketio.run(app, host='0.0.0.0', port=8080, debug=True)  # Host 0.0.0.0 untuk Termux
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask_socketio/__init__.py", line 649, in run
+    raise RuntimeError('The Werkzeug web server is not '
+RuntimeError: The Werkzeug web server is not designed to run in production. Pass allow_unsafe_werkzeug=True to the run() method to disable this error.
+Traceback (most recent call last):
+  File "/storage/emulated/0/location_tracker/app.py", line 44, in <module>
+    socketio.run(app, host='0.0.0.0', port=8080, debug=True)  # Host 0.0.0.0 untuk Termux
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask_socketio/__init__.py", line 649, in run
+    raise RuntimeError('The Werkzeug web server is not '
+RuntimeError: The Werkzeug web server is not designed to run in production. Pass allow_unsafe_werkzeug=True to the run() method to disable this error.
+Traceback (most recent call last):
+  File "/storage/emulated/0/location_tracker/app.py", line 44, in <module>
+    socketio.run(app, host='0.0.0.0', port=8080, debug=True)  # Host 0.0.0.0 untuk Termux
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask_socketio/__init__.py", line 649, in run
+    raise RuntimeError('The Werkzeug web server is not '
+RuntimeError: The Werkzeug web server is not designed to run in production. Pass allow_unsafe_werkzeug=True to the run() method to disable this error.
+Traceback (most recent call last):
+  File "/storage/emulated/0/location_tracker/app.py", line 44, in <module>
+    socketio.run(app, host='0.0.0.0', port=8080, debug=True)  # Host 0.0.0.0 untuk Termux
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask_socketio/__init__.py", line 649, in run
+    raise RuntimeError('The Werkzeug web server is not '
+RuntimeError: The Werkzeug web server is not designed to run in production. Pass allow_unsafe_werkzeug=True to the run() method to disable this error.
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Debugger is active!
+ * Debugger PIN: 811-855-048
+127.0.0.1 - - [03/Feb/2026 10:17:25] "GET /socket.io/?EIO=4&transport=polling&t=PmXWKHI HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 10:17:25] "POST /socket.io/?EIO=4&transport=polling&t=PmXWKHz&sid=9OiQXKeNUsyNU33nAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 10:17:25] "GET /socket.io/?EIO=4&transport=polling&t=PmXWKI7&sid=9OiQXKeNUsyNU33nAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 10:17:25] "GET /socket.io/?EIO=4&transport=polling&t=PmXWKJi&sid=9OiQXKeNUsyNU33nAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 10:17:27] "GET /socket.io/?EIO=4&transport=websocket&sid=9OiQXKeNUsyNU33nAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 10:17:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 10:17:28] "GET /socket.io/?EIO=4&transport=polling&t=PmXWKsC HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 10:17:28] "POST /socket.io/?EIO=4&transport=polling&t=PmXWKse&sid=kbAryk97NRypg_B5AAAC HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 10:17:28] "GET /socket.io/?EIO=4&transport=polling&t=PmXWKso&sid=kbAryk97NRypg_B5AAAC HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 10:17:28] "[33mGET /sw.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 10:17:28] "GET /socket.io/?EIO=4&transport=polling&t=PmXWKtw&sid=kbAryk97NRypg_B5AAAC HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 10:17:28] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 10:19:05] "GET /socket.io/?EIO=4&transport=websocket&sid=kbAryk97NRypg_B5AAAC HTTP/1.1" 200 -
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Debugger is active!
+ * Debugger PIN: 704-707-906
+127.0.0.1 - - [03/Feb/2026 11:03:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:03:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:03:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 11:03:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 11:03:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 11:03:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:03:29] "GET /socket.io/?EIO=4&transport=polling&t=PmXgsxf HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:03:29] "[33mGET /sw.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 11:03:29] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 11:03:30] "POST /socket.io/?EIO=4&transport=polling&t=PmXgt56&sid=LdjPCHNDY6xcznknAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:03:30] "GET /socket.io/?EIO=4&transport=polling&t=PmXgt5D&sid=LdjPCHNDY6xcznknAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:03:30] "GET /socket.io/?EIO=4&transport=polling&t=PmXgtEY&sid=LdjPCHNDY6xcznknAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:03:31] "GET /socket.io/?EIO=4&transport=polling&t=PmXgtO7&sid=LdjPCHNDY6xcznknAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:03:59] "GET /socket.io/?EIO=4&transport=websocket&sid=LdjPCHNDY6xcznknAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:04:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:04:34] "[33mGET /sw.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 11:04:34] "GET /socket.io/?EIO=4&transport=polling&t=PmXh6rU HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:04:35] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 11:04:35] "POST /socket.io/?EIO=4&transport=polling&t=PmXh6_k&sid=PBCe5RLrzu5bekwIAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:04:35] "GET /socket.io/?EIO=4&transport=polling&t=PmXh6_w&sid=PBCe5RLrzu5bekwIAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:04:35] "GET /socket.io/?EIO=4&transport=polling&t=PmXh79i&sid=PBCe5RLrzu5bekwIAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:04:36] "GET /socket.io/?EIO=4&transport=polling&t=PmXh7JR&sid=PBCe5RLrzu5bekwIAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:05:04] "GET /socket.io/?EIO=4&transport=websocket&sid=PBCe5RLrzu5bekwIAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:12:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 11:13:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:13:35] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 11:13:35] "GET /socket.io/?EIO=4&transport=polling&t=PmXjAtc HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:13:35] "[33mGET /sw.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 11:13:36] "POST /socket.io/?EIO=4&transport=polling&t=PmXjBKT&sid=_kgK0LvzkJJztH7lAAAE HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:13:36] "GET /socket.io/?EIO=4&transport=polling&t=PmXjBKd&sid=_kgK0LvzkJJztH7lAAAE HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:13:37] "GET /socket.io/?EIO=4&transport=polling&t=PmXjBV8&sid=_kgK0LvzkJJztH7lAAAE HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:13:37] "GET /socket.io/?EIO=4&transport=polling&t=PmXjBeo&sid=_kgK0LvzkJJztH7lAAAE HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:16:09] "GET /socket.io/?EIO=4&transport=websocket&sid=_kgK0LvzkJJztH7lAAAE HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:16:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 11:16:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:16:50] "[33mGET /sw.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 11:16:50] "GET /socket.io/?EIO=4&transport=polling&t=PmXjwbQ HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:16:51] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 11:16:51] "POST /socket.io/?EIO=4&transport=polling&t=PmXjww8&sid=K14KXOruDGiYgMvaAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:16:51] "GET /socket.io/?EIO=4&transport=polling&t=PmXjwwF&sid=K14KXOruDGiYgMvaAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:16:53] "GET /socket.io/?EIO=4&transport=polling&t=PmXjxDn&sid=K14KXOruDGiYgMvaAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:21:10] "GET /socket.io/?EIO=4&transport=websocket&sid=K14KXOruDGiYgMvaAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:36:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 11:36:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:37:00] "[33mGET /sw.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 11:37:00] "GET /socket.io/?EIO=4&transport=polling&t=PmXoXmH HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:37:01] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 11:37:01] "POST /socket.io/?EIO=4&transport=polling&t=PmXoXzR&sid=Wz5PGPpXPr3PZRPKAAAI HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:37:01] "GET /socket.io/?EIO=4&transport=polling&t=PmXoXzm&sid=Wz5PGPpXPr3PZRPKAAAI HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:37:02] "GET /socket.io/?EIO=4&transport=polling&t=PmXoY9p&sid=Wz5PGPpXPr3PZRPKAAAI HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:37:03] "GET /socket.io/?EIO=4&transport=polling&t=PmXoYNv&sid=Wz5PGPpXPr3PZRPKAAAI HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:37:04] "GET /socket.io/?EIO=4&transport=websocket&sid=Wz5PGPpXPr3PZRPKAAAI HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:37:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:37:05] "[33mGET /sw.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 11:37:05] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 11:37:05] "GET /socket.io/?EIO=4&transport=polling&t=PmXoY_Q HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:37:06] "POST /socket.io/?EIO=4&transport=polling&t=PmXoZCq&sid=LWb8eGG4CODNT6sXAAAK HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:37:06] "GET /socket.io/?EIO=4&transport=polling&t=PmXoZCv&sid=LWb8eGG4CODNT6sXAAAK HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:37:08] "GET /socket.io/?EIO=4&transport=polling&t=PmXoZP0&sid=LWb8eGG4CODNT6sXAAAK HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:37:08] "GET /socket.io/?EIO=4&transport=websocket&sid=LWb8eGG4CODNT6sXAAAK HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:37:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:37:13] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 11:37:13] "[33mGET /sw.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 11:37:13] "GET /socket.io/?EIO=4&transport=polling&t=PmXoax9 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:37:14] "POST /socket.io/?EIO=4&transport=polling&t=PmXob7Z&sid=1ZVG12XSWbe7eg_nAAAM HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:37:14] "GET /socket.io/?EIO=4&transport=polling&t=PmXob7d&sid=1ZVG12XSWbe7eg_nAAAM HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:37:15] "GET /socket.io/?EIO=4&transport=polling&t=PmXobLh&sid=1ZVG12XSWbe7eg_nAAAM HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:37:16] "GET /socket.io/?EIO=4&transport=polling&t=PmXobX0&sid=1ZVG12XSWbe7eg_nAAAM HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:37:23] "GET /socket.io/?EIO=4&transport=websocket&sid=1ZVG12XSWbe7eg_nAAAM HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:37:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:37:38] "[33mGET /sw.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 11:37:38] "GET /socket.io/?EIO=4&transport=polling&t=PmXog-b HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:37:38] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 11:37:39] "POST /socket.io/?EIO=4&transport=polling&t=PmXohLG&sid=e6vqk0KmUhqtKZWPAAAO HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:37:39] "GET /socket.io/?EIO=4&transport=polling&t=PmXohLJ&sid=e6vqk0KmUhqtKZWPAAAO HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:37:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:37:42] "[33mGET /sw.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 11:37:42] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 11:37:42] "GET /socket.io/?EIO=4&transport=polling&t=PmXoi6Q HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:37:44] "POST /socket.io/?EIO=4&transport=polling&t=PmXoiMU&sid=cXoa38-PrSUDMSzwAAAQ HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:37:44] "GET /socket.io/?EIO=4&transport=polling&t=PmXoiMa&sid=cXoa38-PrSUDMSzwAAAQ HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:37:45] "GET /socket.io/?EIO=4&transport=polling&t=PmXoibQ&sid=cXoa38-PrSUDMSzwAAAQ HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:38:01] "GET /socket.io/?EIO=4&transport=websocket&sid=cXoa38-PrSUDMSzwAAAQ HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:52:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 11:52:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 12:58:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 12:58:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 13:03:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 13:03:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:03:27] "GET /socket.io/?EIO=4&transport=polling&t=PmY6KI2 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:03:27] "[33mGET /sw.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 13:03:28] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 13:03:28] "POST /socket.io/?EIO=4&transport=polling&t=PmY6KS2&sid=c4Vf-v6YPa8dwf_LAAAS HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:03:28] "GET /socket.io/?EIO=4&transport=polling&t=PmY6KSE&sid=c4Vf-v6YPa8dwf_LAAAS HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:03:28] "GET /socket.io/?EIO=4&transport=polling&t=PmY6KcC&sid=c4Vf-v6YPa8dwf_LAAAS HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:03:29] "GET /socket.io/?EIO=4&transport=polling&t=PmY6Kle&sid=c4Vf-v6YPa8dwf_LAAAS HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:03:32] "GET /socket.io/?EIO=4&transport=websocket&sid=c4Vf-v6YPa8dwf_LAAAS HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:09:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 13:09:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:09:41] "GET /?serveo-skip-browser-warning=true HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:09:43] "GET /socket.io/?EIO=4&transport=polling&t=PmY7m7z HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:09:43] "[33mGET /sw.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 13:09:44] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 13:09:44] "POST /socket.io/?EIO=4&transport=polling&t=PmY7mKM&sid=R9pbj473_wVNA4HWAAAU HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:09:44] "GET /socket.io/?EIO=4&transport=polling&t=PmY7mKW&sid=R9pbj473_wVNA4HWAAAU HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:09:46] "GET /socket.io/?EIO=4&transport=polling&t=PmY7mWu&sid=R9pbj473_wVNA4HWAAAU HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:09:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:09:46] "POST /socket.io/?EIO=4&transport=polling&t=PmY7mZm&sid=R9pbj473_wVNA4HWAAAU HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:09:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:09:51] "GET /socket.io/?EIO=4&transport=polling&t=PmY7o1f HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:09:51] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 13:09:51] "[33mGET /sw.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 13:09:52] "GET /socket.io/?EIO=4&transport=websocket&sid=R9pbj473_wVNA4HWAAAU HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:09:53] "POST /socket.io/?EIO=4&transport=polling&t=PmY7oF-&sid=KX3EAl8FnhZxJHGzAAAW HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:09:53] "GET /socket.io/?EIO=4&transport=polling&t=PmY7oG1&sid=KX3EAl8FnhZxJHGzAAAW HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:09:53] "GET /socket.io/?EIO=4&transport=polling&t=PmY7ogi&sid=KX3EAl8FnhZxJHGzAAAW HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:11:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 13:11:19] "GET /socket.io/?EIO=4&transport=polling&t=PmY87Kd HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:11:19] "[33mGET /sw.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 13:11:19] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 13:11:20] "POST /socket.io/?EIO=4&transport=polling&t=PmY87d6&sid=vw5EAjp7UsCok87hAAAY HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:11:20] "GET /socket.io/?EIO=4&transport=polling&t=PmY87dP&sid=vw5EAjp7UsCok87hAAAY HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:11:20] "GET /socket.io/?EIO=4&transport=polling&t=PmY87nj&sid=vw5EAjp7UsCok87hAAAY HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:11:21] "GET /socket.io/?EIO=4&transport=polling&t=PmY87xm&sid=vw5EAjp7UsCok87hAAAY HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:13:30] "GET /socket.io/?EIO=4&transport=websocket&sid=vw5EAjp7UsCok87hAAAY HTTP/1.1" 200 -
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Debugger is active!
+ * Debugger PIN: 183-872-653
+127.0.0.1 - - [03/Feb/2026 13:19:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 13:19:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:19:51] "GET /socket.io/?EIO=4&transport=polling&t=PmYA4VW HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:19:51] "[33mGET /sw.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 13:19:51] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 13:19:52] "POST /socket.io/?EIO=4&transport=polling&t=PmYA4fR&sid=TbduSa3WCwJNQ9FfAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:19:52] "GET /socket.io/?EIO=4&transport=polling&t=PmYA4fm&sid=TbduSa3WCwJNQ9FfAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:19:52] "GET /socket.io/?EIO=4&transport=polling&t=PmYA4po&sid=TbduSa3WCwJNQ9FfAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:19:53] "GET /socket.io/?EIO=4&transport=polling&t=PmYA4zc&sid=TbduSa3WCwJNQ9FfAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 13:20:52] "GET /socket.io/?EIO=4&transport=websocket&sid=TbduSa3WCwJNQ9FfAAAA HTTP/1.1" 200 -
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.4:8080
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Debugger is active!
+ * Debugger PIN: 696-428-724
+127.0.0.1 - - [03/Feb/2026 16:20:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 16:20:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 16:20:10] "GET /socket.io/?EIO=4&transport=polling&t=PmYpLqY HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 16:20:10] "[33mGET /sw.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 16:20:11] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 16:20:11] "POST /socket.io/?EIO=4&transport=polling&t=PmYpM2H&sid=H5-jyTtRTPQOtcqhAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 16:20:11] "GET /socket.io/?EIO=4&transport=polling&t=PmYpM2V&sid=H5-jyTtRTPQOtcqhAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 16:20:12] "GET /socket.io/?EIO=4&transport=polling&t=PmYpMHs&sid=H5-jyTtRTPQOtcqhAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 16:20:12] "GET /socket.io/?EIO=4&transport=polling&t=PmYpMQu&sid=H5-jyTtRTPQOtcqhAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 16:20:51] "GET /socket.io/?EIO=4&transport=websocket&sid=H5-jyTtRTPQOtcqhAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 16:22:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 16:22:08] "GET /socket.io/?EIO=4&transport=polling&t=PmYpolJ HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 16:22:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 16:22:09] "[33mGET /sw.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 16:22:09] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 16:22:09] "POST /socket.io/?EIO=4&transport=polling&t=PmYpovJ&sid=wCsHQIbnNa31pg2QAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 16:22:09] "GET /socket.io/?EIO=4&transport=polling&t=PmYpovQ&sid=wCsHQIbnNa31pg2QAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 16:22:10] "GET /socket.io/?EIO=4&transport=polling&t=PmYpp6C&sid=wCsHQIbnNa31pg2QAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 16:22:11] "GET /socket.io/?EIO=4&transport=polling&t=PmYppK9&sid=wCsHQIbnNa31pg2QAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 16:22:17] "GET /socket.io/?EIO=4&transport=websocket&sid=wCsHQIbnNa31pg2QAAAC HTTP/1.1" 200 -
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.4:8080
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Debugger is active!
+ * Debugger PIN: 840-228-408
+127.0.0.1 - - [03/Feb/2026 16:34:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 16:34:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 16:34:29] "GET /socket.io/?EIO=4&transport=polling&t=PmYsdcb HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 16:34:29] "[33mGET /sw.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 16:34:30] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [03/Feb/2026 16:34:30] "POST /socket.io/?EIO=4&transport=polling&t=PmYsdmC&sid=EKi9rPZ601Iii0AAAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 16:34:30] "GET /socket.io/?EIO=4&transport=polling&t=PmYsdmO&sid=EKi9rPZ601Iii0AAAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 16:34:30] "GET /socket.io/?EIO=4&transport=polling&t=PmYsdv-&sid=EKi9rPZ601Iii0AAAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 16:34:31] "GET /socket.io/?EIO=4&transport=polling&t=PmYse4U&sid=EKi9rPZ601Iii0AAAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2026 16:34:47] "GET /socket.io/?EIO=4&transport=websocket&sid=EKi9rPZ601Iii0AAAAAA HTTP/1.1" 200 -
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.4:8080
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Debugger is active!
+ * Debugger PIN: 132-597-875
+127.0.0.1 - - [06/Feb/2026 00:58:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 00:58:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [06/Feb/2026 01:00:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [06/Feb/2026 01:00:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 01:00:11] "GET /socket.io/?EIO=4&transport=polling&t=Pmkygu3 HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 01:00:12] "[33mGET /sw.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [06/Feb/2026 01:00:12] "POST /socket.io/?EIO=4&transport=polling&t=Pmkyh2h&sid=JoMAJ8C2LjasQ4-oAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 01:00:12] "GET /socket.io/?EIO=4&transport=polling&t=Pmkyh31&sid=JoMAJ8C2LjasQ4-oAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 01:00:13] "GET /socket.io/?EIO=4&transport=polling&t=PmkyhDL&sid=JoMAJ8C2LjasQ4-oAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 01:00:13] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [06/Feb/2026 01:00:13] "GET /socket.io/?EIO=4&transport=polling&t=PmkyhNy&sid=JoMAJ8C2LjasQ4-oAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 01:00:38] "GET /socket.io/?EIO=4&transport=websocket&sid=JoMAJ8C2LjasQ4-oAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 01:01:00] "GET /socket.io/?EIO=4&transport=polling&t=Pmkysc6 HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 01:01:01] "POST /socket.io/?EIO=4&transport=polling&t=Pmkys-R&sid=EBHMk7fCZ6dgiPxpAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 01:01:01] "GET /socket.io/?EIO=4&transport=polling&t=Pmkys-W&sid=EBHMk7fCZ6dgiPxpAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 01:01:02] "POST /socket.io/?EIO=4&transport=polling&t=Pmkyt9j&sid=EBHMk7fCZ6dgiPxpAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 01:01:02] "GET /socket.io/?EIO=4&transport=polling&t=Pmkyt9m&sid=EBHMk7fCZ6dgiPxpAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 01:01:02] "POST /socket.io/?EIO=4&transport=polling&t=PmkytKR&sid=EBHMk7fCZ6dgiPxpAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 01:01:02] "GET /socket.io/?EIO=4&transport=polling&t=PmkytKs&sid=EBHMk7fCZ6dgiPxpAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 01:01:04] "GET /socket.io/?EIO=4&transport=polling&t=PmkytVO&sid=EBHMk7fCZ6dgiPxpAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 01:01:07] "GET /socket.io/?EIO=4&transport=websocket&sid=EBHMk7fCZ6dgiPxpAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 01:01:20] "[33mGET /sw.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [06/Feb/2026 01:01:20] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [06/Feb/2026 01:01:21] "GET /socket.io/?EIO=4&transport=polling&t=Pmkyxbs HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 01:01:22] "POST /socket.io/?EIO=4&transport=polling&t=PmkyxwC&sid=6X1koIOB8zMrK7U3AAAE HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 01:01:22] "GET /socket.io/?EIO=4&transport=polling&t=PmkyxwH&sid=6X1koIOB8zMrK7U3AAAE HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 01:01:22] "GET /socket.io/?EIO=4&transport=polling&t=PmkyyAN&sid=6X1koIOB8zMrK7U3AAAE HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 01:01:23] "GET /socket.io/?EIO=4&transport=polling&t=PmkyyMD&sid=6X1koIOB8zMrK7U3AAAE HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 01:01:39] "GET /socket.io/?EIO=4&transport=websocket&sid=6X1koIOB8zMrK7U3AAAE HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 01:02:39] "GET /socket.io/?EIO=4&transport=polling&t=PmkzErk HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 01:02:40] "POST /socket.io/?EIO=4&transport=polling&t=PmkzF95&sid=s_JGpAv0H9y8OludAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 01:02:40] "GET /socket.io/?EIO=4&transport=polling&t=PmkzF9A&sid=s_JGpAv0H9y8OludAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 01:02:41] "GET /socket.io/?EIO=4&transport=polling&t=PmkzFJo&sid=s_JGpAv0H9y8OludAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 01:02:41] "GET /socket.io/?EIO=4&transport=polling&t=PmkzFUC&sid=s_JGpAv0H9y8OludAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2026 01:02:48] "GET /socket.io/?EIO=4&transport=websocket&sid=s_JGpAv0H9y8OludAAAG HTTP/1.1" 200 -
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.4:8080
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Debugger is active!
+ * Debugger PIN: 127-090-476
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'app'
+ * Debug mode: on
+Address already in use
+Port 8080 is in use by another program. Either identify and stop that program, or start the server with a different port.
+127.0.0.1 - - [09/Feb/2026 01:04:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [09/Feb/2026 01:04:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Feb/2026 01:04:14] "GET /socket.io/?EIO=4&transport=polling&t=Pm-RFE8 HTTP/1.1" 200 -
+127.0.0.1 - - [09/Feb/2026 01:04:14] "[33mGET /sw.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [09/Feb/2026 01:04:14] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [09/Feb/2026 01:04:14] "POST /socket.io/?EIO=4&transport=polling&t=Pm-RFOf&sid=iUzhyPfqaBgnKhV_AAAA HTTP/1.1" 200 -
+127.0.0.1 - - [09/Feb/2026 01:04:14] "GET /socket.io/?EIO=4&transport=polling&t=Pm-RFOw&sid=iUzhyPfqaBgnKhV_AAAA HTTP/1.1" 200 -
+127.0.0.1 - - [09/Feb/2026 01:04:15] "GET /socket.io/?EIO=4&transport=polling&t=Pm-RFaQ&sid=iUzhyPfqaBgnKhV_AAAA HTTP/1.1" 200 -
+127.0.0.1 - - [09/Feb/2026 01:04:16] "GET /socket.io/?EIO=4&transport=polling&t=Pm-RFm8&sid=iUzhyPfqaBgnKhV_AAAA HTTP/1.1" 200 -
+127.0.0.1 - - [09/Feb/2026 01:06:34] "GET /socket.io/?EIO=4&transport=websocket&sid=iUzhyPfqaBgnKhV_AAAA HTTP/1.1" 200 -
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Debugger is active!
+ * Debugger PIN: 127-641-146
+127.0.0.1 - - [02/Mar/2026 14:58:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 14:58:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 14:58:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 14:58:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 14:59:01] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 14:59:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 14:59:27] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Debugger is active!
+ * Debugger PIN: 779-109-555
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'app'
+ * Debug mode: on
+Address already in use
+Port 8080 is in use by another program. Either identify and stop that program, or start the server with a different port.
+127.0.0.1 - - [02/Mar/2026 15:08:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 15:08:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 15:08:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 15:09:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 15:09:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 15:09:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 15:09:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 15:09:17] "GET / HTTP/1.1" 200 -
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Debugger is active!
+ * Debugger PIN: 261-770-304
+127.0.0.1 - - [02/Mar/2026 15:23:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 15:23:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 15:24:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 15:24:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 15:25:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 15:25:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 15:26:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 15:26:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 15:26:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 15:26:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 15:27:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 15:27:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 15:27:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 15:27:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Debugger is active!
+ * Debugger PIN: 103-489-001
+127.0.0.1 - - [02/Mar/2026 18:05:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 18:05:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 18:05:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 18:05:48] "GET / HTTP/1.1" 200 -
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.119.180.209:8080
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Debugger is active!
+ * Debugger PIN: 514-406-135
+127.0.0.1 - - [02/Mar/2026 18:33:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 18:33:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 18:34:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 18:34:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 18:34:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.119.180.209:8080
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Debugger is active!
+ * Debugger PIN: 215-856-652
+127.0.0.1 - - [02/Mar/2026 18:55:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 18:55:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 18:55:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 18:55:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 18:55:40] "[33mGET /static/video.mp4 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 18:58:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 18:58:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 18:58:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 18:58:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 18:58:10] "[33mGET /static/video.mp4 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 18:58:13] "POST /save_location HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 18:58:24] "POST /save_location HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 18:58:24] "POST /save_location HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 18:58:52] "POST /save_location HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 18:58:52] "POST /save_location HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 18:58:52] "POST /save_location HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 18:58:52] "POST /save_location HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 18:58:52] "POST /save_location HTTP/1.1" 200 -
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.119.180.209:8080
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Debugger is active!
+ * Debugger PIN: 787-974-093
+127.0.0.1 - - [02/Mar/2026 19:21:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 19:21:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 19:21:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 19:21:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 19:21:51] "[33mGET /video.mp4 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 19:22:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 19:22:25] "[33mGET /video.mp4 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 19:22:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.119.111.122:8080
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 137-071-284
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.119.111.122:8080
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 477-808-524
+127.0.0.1 - - [02/Mar/2026 19:35:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 19:35:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 19:35:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 19:35:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 19:35:08] "[33mGET /video.mp4 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 19:35:15] "POST /save_location HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 19:35:21] "POST /save_location HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 19:35:26] "POST /save_location HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 19:35:31] "POST /save_location HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 19:35:36] "POST /save_location HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 19:35:44] "POST /save_location HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 19:35:51] "POST /save_location HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 19:35:51] "POST /save_location HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 19:35:57] "POST /save_location HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 19:36:02] "POST /save_location HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 19:36:08] "POST /save_location HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.5:8080
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 891-981-763
+127.0.0.1 - - [02/Mar/2026 20:57:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 20:57:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 20:57:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [02/Mar/2026 20:57:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 20:57:40] "POST /save_location HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 20:57:46] "POST /save_location HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 20:57:52] "POST /save_location HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 20:57:57] "POST /save_location HTTP/1.1" 200 -
+127.0.0.1 - - [02/Mar/2026 20:58:03] "POST /save_location HTTP/1.1" 200 -
