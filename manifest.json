@@ -1,0 +1,16 @@
+{
+  "name": "Tracker",
+  "short_name": "Tracker",
+  "description": "Real-time location tracker app",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#00ff00",
+  "icons": [c51f7835c815bbf83f8e4d15b3de91be.jpg192×192
+    {
+      "src": "https://via.placeholder.com/192×192.jpg?text=Icon",  //c51f7835c815bbf83f8e4d15b3de91be.jpg192×192
+      "sizes": "192×192",
+      "type": "image/jpg"
+    }
+  ]
+}
